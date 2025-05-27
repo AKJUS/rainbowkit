@@ -1,5 +1,12 @@
 # with-react-router
 
+## 0.0.2
+
+### Patch Changes
+
+- Updated dependencies [f6ad6aa]
+  - @rainbow-me/rainbowkit@3.0.0
+
 ## 0.0.1
 
 ### Patch Changes
