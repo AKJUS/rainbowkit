@@ -1,5 +1,11 @@
 # @rainbow-me/rainbowkit
 
+## 2.2.6
+
+### Patch Changes
+
+- f6ad6aa: Added support for Superposition chain
+
 ## 2.2.5
 
 ### Patch Changes
