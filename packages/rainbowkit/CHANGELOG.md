@@ -1,5 +1,39 @@
 # @rainbow-me/rainbowkit
 
+## 2.2.7
+
+### Patch Changes
+
+- a147620: Fixed error handling when connect requests are rejected on mobile.
+- 10090d2: Mitigated `WalletConnect Core is already initialized` warnings that began appearing with recent distributions of Wagmi and WalletConnect.
+- 50c7f13: Added missing `rdns` metadata for wallet connectors that now support EIP-6963.
+- 15ddd4a: Improved QR Code error correction and rendering with [`cuer`](https://github.com/wevm/cuer)
+
+## 2.2.6
+
+### Patch Changes
+
+- 624a38a: The `coinbaseWallet` connector now supports additional SDK configuration options to enable [Paymasters](https://docs.base.org/identity/smart-wallet/guides/paymasters) and [Sub Accounts](https://docs.base.org/identity/smart-wallet/guides/sub-accounts) for your dapp.
+
+  ```tsx
+  import { coinbaseWallet } from "@rainbow-me/rainbowkit/wallets";
+
+  // Configure Paymaster for gas sponsorship
+  coinbaseWallet.paymasterUrls = {
+    [base.id]: "...",
+  };
+
+  // Enable Sub Accounts
+  coinbaseWallet.subAccounts = {
+    enableAutoSubAccounts: true,
+    defaultSpendLimits: {
+      // ...
+    },
+  };
+  ```
+
+- f6ad6aa: Added support for Superposition chain
+
 ## 2.2.5
 
 ### Patch Changes

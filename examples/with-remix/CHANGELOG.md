@@ -1,5 +1,26 @@
 # with-remix
 
+## 0.0.103
+
+### Patch Changes
+
+- 261497f: Upgrade Remix dependencies to 2.16.8 and enable Remix v2 future in `remix.config.js`.
+- Updated dependencies [a147620]
+- Updated dependencies [10090d2]
+- Updated dependencies [50c7f13]
+- Updated dependencies [15ddd4a]
+  - @rainbow-me/rainbowkit@2.2.7
+
+## 0.0.102
+
+### Patch Changes
+
+- 77de527: Upgraded `wagmi` to `^2.15.5`.
+- e03de7c: Upgrade React, React DOM, Next, and related type dependencies across packages and examples.
+- Updated dependencies [624a38a]
+- Updated dependencies [f6ad6aa]
+  - @rainbow-me/rainbowkit@2.2.6
+
 ## 0.0.101
 
 ### Patch Changes
