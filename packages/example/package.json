@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "0.0.112",
+  "version": "0.0.115",
   "description": "",
   "private": true,
   "main": "index.js",
@@ -14,7 +14,7 @@
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "viem": "2.29.2",
-    "wagmi": "^2.15.5"
+    "wagmi": "^2.15.6"
   },
   "scripts": {
     "dev": "next dev",

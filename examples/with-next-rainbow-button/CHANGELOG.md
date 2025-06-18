@@ -1,5 +1,25 @@
 # with-next-rainbow-button
 
+## 0.0.34
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.25
+
+## 0.0.33
+
+### Patch Changes
+
+- @rainbow-me/rainbow-button@0.2.24
+
+## 0.0.32
+
+### Patch Changes
+
+- 77de527: Upgraded `wagmi` to `^2.15.5`.
+- e03de7c: Upgrade React, React DOM, Next, and related type dependencies across packages and examples.
+  - @rainbow-me/rainbow-button@0.2.23
+
 ## 0.0.31
 
 ### Patch Changes

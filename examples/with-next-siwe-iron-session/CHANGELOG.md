@@ -1,5 +1,32 @@
 # with-next-siwe-iron-session
 
+## 0.0.87
+
+### Patch Changes
+
+- Updated dependencies [f542876]
+  - @rainbow-me/rainbowkit@2.2.8
+
+## 0.0.86
+
+### Patch Changes
+
+- Updated dependencies [a147620]
+- Updated dependencies [10090d2]
+- Updated dependencies [50c7f13]
+- Updated dependencies [15ddd4a]
+  - @rainbow-me/rainbowkit@2.2.7
+
+## 0.0.85
+
+### Patch Changes
+
+- 77de527: Upgraded `wagmi` to `^2.15.5`.
+- e03de7c: Upgrade React, React DOM, Next, and related type dependencies across packages and examples.
+- Updated dependencies [624a38a]
+- Updated dependencies [f6ad6aa]
+  - @rainbow-me/rainbowkit@2.2.6
+
 ## 0.0.84
 
 ### Patch Changes
