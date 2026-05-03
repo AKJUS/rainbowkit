@@ -1,5 +1,13 @@
 # @rainbow-me/rainbowkit
 
+## 2.2.11
+
+### Patch Changes
+
+- 1043d88: Added MeCo Wallet support with `mecoWallet` wallet connector.
+- 25c4c2b: Improved SSR safety to prevent WalletConnect initialization warnings.
+- f2523a9: Updated MetaMask wallet icon
+
 ## 2.2.10
 
 ### Patch Changes
@@ -13,8 +21,9 @@
 - 6c745a5: Disable third-party connector telemetry by default for user privacy. h/t @TimDaub
 
   **To opt-in to WalletConnect analytics:**
-  
+
   With `getDefaultConfig`:
+
   ```ts
   const config = getDefaultConfig({
     /** ... **/
@@ -23,15 +32,17 @@
     },
   });
   ```
-  
+
   **To opt-in to Base Account telemetry:**
+
   ```ts
   baseAccount.preference = {
     telemetry: true,
   };
   ```
-  
+
   **To opt-in to MetaMask analytics:**
+
   ```ts
   metaMaskWallet.enableAnalytics = true;
   ```
